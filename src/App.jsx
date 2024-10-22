@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className="font-montserrat font-medium pt-4 flex justify-between flex-col sm:flex-row items-center">
+      <div className="font-montserrat text-sm font-medium pt-4 flex justify-between flex-col sm:flex-row items-center">
         <div className="p-4 sm:ml-40">
           <h1>hey there</h1>
         </div>

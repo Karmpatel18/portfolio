@@ -9,6 +9,7 @@ export default {
       
         fontFamily: {
           montserrat: ['montserrat', 'sans-serif'],
+          FontFace:['FontFace','FontFace']
         },
       },
     },
