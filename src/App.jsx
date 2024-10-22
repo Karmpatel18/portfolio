@@ -1,6 +1,6 @@
 // import { useState } from 'react'
-
-import './App.css'
+import { Component } from 'react'
+import Box from './components/box'
 
 function App() {
   
@@ -18,6 +18,7 @@ function App() {
           <a href='#'>Contact</a>
         </div>
       </div>
+      <Box />
     </>
   )
 }
