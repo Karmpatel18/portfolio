@@ -4,8 +4,9 @@ import React from 'react'
 function Box() {
   return (
     
-      <div className='font-montserrat'>
-        <div className="flex flex-col place-content-between p-10 lg:ml-40 lg:mr-40 sm:ml-16 sm:mr-16 m-4 rounded-3xl h-[508px] w-auto bg-gray-100">
+      
+        
+          <div className="flex  flex-col place-content-between p-8 lg:ml-40  sm:ml-16  m-4 rounded-3xl h-[508px] w-3/4 bg-purple-400">
             <div className="div">
             <h1 className='text-gray-900 font-bold text-4xl'>Hello, I’m Abo, a product Designer With 7 years of experience.</h1>
             <p className='mt-12'>I care a lot about using design for positive impact. and enjoy creating user-centric, delightful, and human experiences.</p>
@@ -22,7 +23,8 @@ function Box() {
             </div>
 
         </div>
-      </div>
+        
+      
       
     
   )
