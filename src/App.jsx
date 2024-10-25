@@ -1,3 +1,5 @@
+
+
 // import { useState } from 'react'
 function App() {
   
@@ -37,7 +39,7 @@ function App() {
         </div>
         <div className="bg-gray-100 max-w-full xl:w-1/4 h-[508px] mt-4 overflow-hidden lg:mr-24 xl:mr-40  lg:ml-2 m-2 md:ml-16 md:mr-16  ">
             
-              <img className="w-full h-[508px] transition-all duration-300 cursor-pointer filter grayscale   hover:grayscale-0" 
+              <img className="w-full h-[508px] transition-all cursor-pointer filter grayscale   hover:grayscale-0 hover:scale-105  duration-500 " 
               src="https://images.pexels.com/photos/18322097/pexels-photo-18322097/free-photo-of-used-books-displayed-in-store.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" 
               alt="image description"/>
               
@@ -45,9 +47,24 @@ function App() {
            
         </div>
       </div>
-      
+      <div className="container">
+      <div className="flex  flex-row place-content-between  lg:ml-24 xl:ml-40 md:ml-16  lg:mr-24 xl:mr-40 md:mr-16 m-2 mt-4 w-auto gap-4 ">
+          <div className="w-1/2 h-[468px] overflow-hidden rounded-3xl cursor-pointer">
+            <img className="w-auto h-auto hover:scale-105 duration-500" src="https://www.aboghanbari.com/static/a89fe8a4ad332d942da74da90f09fb8f/180f3/Flop.webp" alt="logo" />
+          </div>
+          <div className="w-1/2 h-[468px] overflow-hidden rounded-3xl cursor-pointer">
+            <img className="w-auto h-auto hover:scale-105 duration-500" src="https://www.aboghanbari.com/static/a89fe8a4ad332d942da74da90f09fb8f/180f3/Flop.webp" alt="logo" />
+          </div>
+        </div>
+      </div>
     </>
   )
 }
 
 export default App
+        
+        
+        
+        
+        
+      
